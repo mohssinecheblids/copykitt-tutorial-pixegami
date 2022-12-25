@@ -32,7 +32,7 @@ const Form: React.FC<FormProps> = (props) => {
       <input
         className="p-2 w-full rounded-md focus:outline-teal-400 focus:outline text-slate-700"
         type="text"
-        placeholder="coffee"
+        placeholder="date in xlsx format"
         value={props.prompt}
         onChange={(e) => updatePromptValue(e.currentTarget.value)}
       ></input>
